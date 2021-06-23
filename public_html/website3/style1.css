@@ -1,0 +1,175 @@
+.topnav {
+    background-color: rgb(233, 228, 223);
+    overflow: hidden;
+    background-repeat: repeat-x;
+   
+  }
+
+
+  .wrapper{
+    background-color: black;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    text-decoration: none;
+    
+    color: rgb(138, 133, 133);
+  }
+
+  #logo{
+    padding: 0 0 0 0;
+    height: 18px;
+    width: 40px;
+  }
+
+  .action, .drama, .sci{
+    margin: 20px 20px 20px 20px;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+
+  .action nav img{
+    width: 353px;
+    height: 217px;
+    margin-top: 0.5rem;
+  }
+  
+  .drama nav img{
+    width: 353px;
+    height: 217px;
+    margin-top: 0.5rem;
+  }
+
+  .hr{
+    width: 100px;
+    color: rgb(17, 4, 4);
+  }
+
+  .sci nav img{
+    width: 353px;
+    height: 217px;
+    margin-top: 0.5rem;
+  }
+
+  h1{
+    color: rgb(255, 255, 255);
+  }
+  .wrapper hr{
+    border-top: 2px solid rgb(252, 252, 252);
+  }
+
+
+  .box{
+    position: relative;
+    display: inline-block;
+  
+     /* Make the width of box same as image */
+}
+.box .text{
+    position:absolute;
+    z-index: 999;       
+    text-align: center;
+    top: 65.2%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0.7);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 100%; /* Set the width of the positioned div */
+}
+
+.topnav h5{
+  padding-top: 15px;
+}
+
+
+.search{
+  
+  float: right;
+  margin-top: 3em;
+  
+}
+
+.search input[type=text]{ 
+  width:900px; 
+  height:42px; 
+  background-color: rgb(231, 228, 16);
+  border-radius:0.5em; 
+  border: none; 
+
+} 
+
+
+.search button{ 
+  border-radius: 0.5em;
+  background-color: #dda42a; 
+  color: #f2f2f2; 
+  float: right; 
+  padding: 10px 15px; 
+  margin-right: 16px; 
+  font-size: 15px; 
+  border: none; 
+  cursor: pointer; 
+} 
+
+.dropbtn {
+  width: 100px;
+  text-align: right;
+  float: left;
+  background-color: #ebe048;
+  color: rgb(12, 11, 11);
+  margin-top: 3em;
+  margin-left: 4em;
+  padding: 10px;
+  padding-left: 4em;
+  padding-right: 8em;
+  border-radius: 0.5em;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+ size: initial;
+ position: relative;
+ display: inline-block;
+  
+}
+
+.dropdown .btn {
+  display: inline block;
+  background-color: rgb(215, 226, 117);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

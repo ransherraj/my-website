@@ -1,0 +1,267 @@
+/* variables */
+
+
+:root{
+    --primary-blue: rgb(224, 93, 250);
+    --dark-blue:rgb(219, 11, 150);
+    --light-blue: rgb(125, 219, 248);
+    --white:white;
+    --primary-text:black;
+    --secondary-text: rgb(59, 59, 61);
+    --light-grey:rgb(78, 76, 76);
+}
+
+
+
+/* Resets */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+    
+body{
+    font-family: Helvetica, sans-serif;
+    color: var( --primary-text);
+}
+
+/* helper functions */
+/* layout/flex */
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.pb-1{
+    padding-bottom: 10px;
+}
+
+
+
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* text classes */
+
+.primary-text{
+    color: var(--primary-text);
+}
+
+.secondary-text{
+    color: var(--secondary-text);
+}
+
+.light-text{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+header{
+    height: 150px;
+    background-color: var(--dark-blue);
+    width: 100%;
+    color: white;
+}
+
+header .container{
+    height: 100%;
+    align-items: center;
+
+}
+
+#appContainer{
+    height: 100vh;
+    width: 100vw;
+    align-items: stretch;
+    background-color: var(--primary-blue);
+    overflow: hidden;
+}
+
+
+#mainContent{
+    justify-content: center;
+    
+    width: 100%;
+}
+/* login form section */
+
+#login{
+
+    background: rgb(193, 229, 247);
+    padding: 40px 100px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 black;
+    margin-top:-100px ;
+
+}
+
+#loginForm{
+    margin-top: 20px;
+}
+
+
+/* form element */
+
+input{
+    border-radius: 0.3rem;
+    height: 40px;
+    padding: 10px;
+    background-color: var(--light-blue);
+    border: none;
+    color: var(--seconadry-text) ;
+}
+
+button{
+    border-radius: 0.3rem;
+    height: 40px;
+    padding: 0 15px;
+    background-color: var(--primary-blue);
+    border: none;
+    color: white ;
+}
+
+/* chat section is started */
+
+#chat{
+    background: rgb(193, 229, 247);
+    box-shadow: 0 2px 4px 0 black;
+    border-radius: 0.2rem;
+    height: 100px;
+    margin:25px 0 ;
+    padding: 25px;
+    color: rgb(49, 47, 47);
+    overflow-y: scroll;
+}
+
+#messageForm {
+	margin-bottom: 5px;
+}
+
+.message{
+    background-color: var(--primary-blue);
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    
+
+}
+
+.message-right{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--light-blue);
+    color: rgb(62, 62, 110);
+    margin-left: 20%;
+}
+
+.message-left{
+
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(187, 187, 245);
+    color:rgb(101, 29, 160);
+    margin-right: 20px;
+
+}
+
+#message-details{
+    margin-top: -5px;
+    margin-bottom: 18px;
+    justify-content: space-between;
+}
+
+.message-author{
+    font-weight: 800;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.message-date{
+    font-weight: 100;
+    font-size: 10px ;
+    font-family: cursive;
+    
+}
+
+.message-content{
+    font-weight: 100;
+}
+
+#chatappimg{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#chatappimgfooter{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+}
+
+.developer{
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 1px 0 rgb(78, 76, 76);
+    margin-top: 20px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(10, 116, 36);
+    color: aliceblue;
+
+}
+
+.developer:hover{
+    opacity: 0.8;
+    scale: 0.9;
+    transition: all ease 0.5s;
+    opacity: 0.8;
+
+}
+
+

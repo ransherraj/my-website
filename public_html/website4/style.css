@@ -1,0 +1,35 @@
+input{
+    width: 150px;
+    height: 120px;
+    font-size: 70px;
+    margin: 8px;
+    background-color: rgb(24, 24, 32);
+    color: rgb(250, 249, 248);
+    border-radius: 0.5rem;
+}
+
+
+h1{
+    text-align: center;
+    margin-left: 200px;
+    width: 675px;
+    font-size: 45px;
+    color: rgb(8, 7, 8);
+    background-color: rgb(156, 160, 160);
+    border-radius: 0.5rem;
+    height: 60px;
+    margin-bottom: -3px;
+}
+
+.calculator{
+    padding-top: 15px;
+    border-radius: 0.5em;
+    margin-left: 200px;
+    width: 678px;
+    height: 850px;
+    background-color: darkgray;
+}
+
+body{
+    background-color: rgb(82, 60, 2);
+}

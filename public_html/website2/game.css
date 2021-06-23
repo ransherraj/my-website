@@ -1,0 +1,81 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 0.1rem solid rgb(46, 4, 197);
+    background-color: rgb(255, 254, 254);
+}
+
+.choice-container:hover{
+  cursor: pointer;
+  box-shadow: 0 0.2rem 1rem 0 rgb(105, 102, 102);
+    transform: translateY(-0.05rem);
+    transition: transform 0.2s;
+}
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(144, 120, 253);
+    color: rgb(252, 249, 249);
+
+}
+
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.incorrect{
+    background-color: rgb(247, 93, 93);
+}
+
+.correct{
+    background-color: rgb(108, 235, 96);
+}
+
+/*hud*/
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: 0.3rem solid blue;
+}
+
+#progressBarFull{
+    height: 3.4rem;
+    background-color: cornflowerblue;
+    width: 0%;
+}
+
+
+/* loader spining cirle */
+
+#loader{
+    border: 2rem solid wheat;
+    border-radius: 50%;
+    border-top:2rem solid rgb(102, 56, 13);
+    width: 10rem;
+    height: 10rem;
+    animation: spin 3s ease-in-out;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

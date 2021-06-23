@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="topnav">
+
+            <a href="index.html">
+                <img id="logo" src="images/logo.png">
+            </a>
+            <a href="index1.html">Movies</a>
+            <a href="#TV series">TV series</a>
+            <a href="#Audio">Audio</a>
+        </div>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/A1.png" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/A2.png" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/A3.png" class="d-block w-100" alt="...">
+
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/A4.png" class="d-block w-100" alt="...">
+
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/A5.png" class="d-block w-100" alt="...">
+
+
+                </div>
+
+
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div>
+
+            <nav>
+                <div class="dropdown">
+                    <select class="dropbtn">
+                        <option class="btn active" onclick="filterSelection('all')">All</option>
+                        <option class="btn" onclick="filterSelection('action')">Action</option>
+                        <option class="btn" onclick="filterSelection('drama')">Drama</option>
+                        <option class="btn" onclick="filterSelection('sci')">Sci-Fi</option>
+                    </select>
+
+
+
+                </div>
+
+
+                <div class="search">
+
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder=" Search your favourate movie"
+                        title="search">
+                    <button>
+                        <i class="fa fa-search" style="font-size: 20px;">
+                        </i>
+                    </button>
+
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="action">
+
+            <nav class="movies">
+
+                <div class="box">
+                    <img src="images/1.png" alt="f">
+                    <div class="text">
+                        <h2>Around the Way</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/2.png" alt="f">
+                    <div class="text">
+                        <h2>Down into the Dark</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/3.png" alt="f">
+                    <div class="text">
+                        <h2>Fyre Fraud</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/4.png" alt="f">
+                    <div class="text">
+                        <h2>Futureman</h2>
+                        <h5>all drama</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/5.png" alt="f">
+                    <div class="text">
+                        <h2>New Movie</h2>
+                        <h5>all drama</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/1.6.jpg" alt="f">
+                    <div class="text">
+                        <h2>Expandables 3</h2>
+                        <h5>all action drama</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/1.5.jpg" alt="f">
+                    <div class="text">
+                        <h2>Iron Man</h2>
+                        <h5>all action sci</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/1.4.jpg" alt="f">
+                    <div class="text">
+                        <h2>XXX-new generation</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/1.3.jpg" alt="f">
+                    <div class="text">
+                        <h2>Infinity Stones</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <img src="images/3.1.jpg" alt="f">
+                    <div class="text">
+                        <h2>Titanic</h2>
+                        <h5>all drama</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/3.2.jpg" alt="f">
+                    <div class="text">
+                        <h2>Kingdom</h2>
+                        <h5>all action drama</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/3.3.jpg" alt="f">
+                    <div class="text">
+                        <h2>Love Story</h2>
+                        <h5>all drama</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/3.4.jpg" alt="f">
+                    <div class="text">
+                        <h2>Mr. sunshine</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/3.5.jpg" alt="f">
+                    <div class="text">
+                        <h2>Kingsman</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/3.6.jpg" alt="f">
+                    <div class="text">
+                        <h2>May Queen</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/1.2.jpg" alt="f">
+                    <div class="text">
+                        <h2>Danger</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/1.1.jpg" alt="f">
+                    <div class="text">
+                        <h2>Thalayava</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/2.1.jpg" alt="f">
+                    <div class="text">
+                        <h2>sci-fi new1</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/2.2.jpg" alt="f">
+                    <div class="text">
+                        <h2>sci-fi new2</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/2.3.jpg" alt="f">
+                    <div class="text">
+                        <h2>Transformers</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/2.4.jpg" alt="f">
+                    <div class="text">
+                        <h2>sci-fi new3</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/2.5.jpg" alt="f">
+                    <div class="text">
+                        <h2>sci-fi new4</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/2.6.jpg" alt="f">
+                    <div class="text">
+                        <h2>sci-fi new5</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+
+
+                <div class="box">
+                    <img src="images/A.jpg" alt="f">
+                    <div class="text">
+                        <h2>Thor</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/B.jpg" alt="f">
+                    <div class="text">
+                        <h2>Smart child</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/C.jpg" alt="f">
+                    <div class="text">
+                        <h2>Home Alones</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/D.jpg" alt="f">
+                    <div class="text">
+                        <h2>College Girls</h2>
+                        <h5>all drama</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/E.jpg" alt="f">
+                    <div class="text">
+                        <h2>Jungle Man</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/F.jpg" alt="f">
+                    <div class="text">
+                        <h2>Avengers</h2>
+                        <h5>all sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/G.jpg" alt="f">
+                    <div class="text">
+                        <h2>Elaan</h2>
+                        <h5>all drama action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/H.jpg" alt="f">
+                    <div class="text">
+                        <h2>The Witcher</h2>
+                        <h5>all drama</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/I.jpg" alt="f">
+                    <div class="text">
+                        <h2>MockingJay</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/J.jpg" alt="f">
+                    <div class="text">
+                        <h2>Kartoos</h2>
+                        <h5>all action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/K.jpg" alt="f">
+                    <div class="text">
+                        <h2>IntaQuam</h2>
+                        <h5>all drama action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/L.jpg" alt="f">
+                    <div class="text">
+                        <h2>Kabir Singh</h2>
+                        <h5>all action drama</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/M.jpg" alt="f">
+                    <div class="text">
+                        <h2>The Ghost Rider</h2>
+                        <h5>all action sci</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/N.jpg" alt="f">
+                    <div class="text">
+                        <h2>Rise of an Empire</h2>
+                        <h5>all drama action</h5>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/O.jpg" alt="f">
+                    <div class="text">
+                        <h2>Jumanji</h2>
+                        <h5>all drama action</h5>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="topnav">
+
+            <a href="index.html">
+                <img id="logo" src="images/logo.png">
+            </a>
+
+            <h5>Powered by 365 Entertainment Portal &copy;2020. All Rights Reserved.</h5>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            let input = document.getElementById('myInput').value
+            input = input.toLowerCase();
+            let x = document.getElementsByTagName('h2');
+            let box = document.getElementsByClassName('box');
+            for (i = 0; i < box.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    box[i].style.display = "none";
+                }
+                else {
+                    box[i].style.display = "";
+                }
+            }
+        }
+
+        function filterSelection(c) {
+
+            let x = document.getElementsByTagName('h5');
+            let box = document.getElementsByClassName('box');
+            for (i = 0; i < box.length; i++) {
+                
+                if (!x[i].innerHTML.toLowerCase().includes(c)) {
+                    box[i].style.display = "none";
+                }
+            
+                else {
+                    box[i].style.display = "";
+                }
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

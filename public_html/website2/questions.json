@@ -1,0 +1,48 @@
+[
+
+    {
+        "question": "Who will be the captain of Rajasthan Royals in IPL-12?",
+        "choice1": "Sanju Samson",
+        "choice2": "Steve Smith",
+        "choice3": "Jos Butler",
+        "choice4": "Ben Stokes",
+        "answer": 1
+    },
+    
+    {
+        "question": "Who will be the captain of RCB in 2021?",
+        "choice1": "Devdatt Padikal",
+        "choice2": "Steve Smith",
+        "choice3": "Virat Kohli",
+        "choice4": "AB Deviliers",
+        "answer": 3
+    },
+    
+    {
+        "question": "Who has scored highest number of ceturies in single season of IPL ever?",
+        "choice1": "Chris Gayle",
+        "choice2": "KL Rahul",
+        "choice3": "Virat Kohli",
+        "choice4": "AB Deviliers",
+        "answer": 3
+    },
+    
+    {
+        "question": "Which team has won highest numbers IPL trophies?",
+        "choice1": "Mumbai Indians",
+        "choice2": "Chennai Super Kings",
+        "choice3": "Kolkata Knight Riders",
+        "choice4": "rajsthan Royals",
+        "answer": 1
+    },
+    
+    {
+        "question": "What is the highest number of trophies a single team have won in IPL?",
+        "choice1": "Four",
+        "choice2": "Three",
+        "choice3": "Five",
+        "choice4": "Two",
+        "answer": 3
+    }
+    
+]

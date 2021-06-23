@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatapp</title>
+    <link rel = "icon" href =  "images/chatapp.png" style="border-radius: 50%;" type = "image/x-icon"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="appContainer" class="flex-column">
+
+
+        <header>
+            <div class="container flex-column flex-center">
+                <img id="chatappimg" src="images/chatapp.png" alt="">
+                <h1>Chattangle</h1>
+                <p class="light-text">The easiest way to communicate World!!</p>
+            </div>
+        </header>
+
+        <div id="mainContent" class="container flex-grow-1 flex-column ">
+            <section id="login" class="">
+                <h2 class="text-center">Just start it</h2>
+                <h6 class="text-center ">What are you waiting for?</h6>
+                <form action="" id="loginForm" class="flex">
+                   <input type="text" class="flex-grow-1" name="username" id="usernameInput" placeholder="username"> 
+                   <button id="loginBtn">Chat Now!</button>
+                </form>
+            </section>
+
+            <section id="chat" class="hidden flex-grow-1 flex-column">
+                <div id="messagesList" class="flex-grow-1">
+                    <!-- <div class="message message-right">
+                        <div id="message-details" class="flex">
+                            <p class="message-author">Ransher Raj</p>
+                            <p class="message-date">21/1/21</p>
+                        </div>
+                        <p class="message-content">Hi!, How r u?</p>
+
+                    </div>
+
+                    <div class="message message-left">
+                        <div id="message-details" class="flex">
+                            <p class="message-author">A Friend</p>
+                            <p class="message-date">21/1/21</p>
+                        </div>
+                        <p class="message-content">Hi!, I am well. Tell abt yourself.</p>
+                    </div>
+
+                    <p class="secondary-text text-center mb-2" >A friend has joined the chat...</p> -->
+                </div> 
+
+                <form action="" id="messageForm" class="flex mb-2 pb-1">
+                    <input type="text" class="flex-grow-1" name="message" id="messageInput" placeholder="Enter a message">
+                    <button id="sendBtn">Send</button>
+                </form>
+
+            </section>
+
+        </div>
+
+
+
+        <!-- footer -->
+
+        <header>
+            <div class="container flex-column flex-center">
+                <img id="chatappimgfooter" src="images/chatapp.png" alt="">
+                <h5 id="footer-text">Powered by RBV groups &copy;2021. All Rights Reserved.</h5>
+                <a class="developer" href="owner.html">Who is the Developer?</a>
+            </div>
+        </header>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.js"></script>
+    <script src="chatapp.js"></script>
+</body>
+
+</html>
